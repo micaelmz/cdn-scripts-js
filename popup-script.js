@@ -8,5 +8,7 @@
     if (window.Shopify) {
         console.log('Loja:', window.Shopify.shop);
         console.log('Currency:', window.Shopify.currency);
+    } else {
+        console.log('aaaaaaaaaaa');
     }
 })();
